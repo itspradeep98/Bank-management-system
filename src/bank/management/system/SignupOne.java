@@ -20,6 +20,7 @@ public class SignupOne extends JFrame implements ActionListener{
         Random ran = new Random();
         random = Math.abs((ran.nextLong() % 9000L) + 1000L);
         
+        // Create block to store application no.
         formno = new JLabel("APPLICATION FORM NO. " + random);
         formno.setFont(new Font("Ralwey",Font.BOLD, 38));
         formno.setBounds(140, 20, 600, 40);
